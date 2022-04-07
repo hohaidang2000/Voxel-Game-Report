@@ -11,19 +11,22 @@ public class Player : MonoBehaviour
     [SerializeField] private PlayerInput _playerInput;
     [SerializeField] private PlayerMovement _playerMovement;
 
-    [SerializeField] private float AttackRange = 5;
+    [SerializeField] private float _attackRange = 5;
+    
 
     [SerializeField] protected LayerMask _groundMask;
 
-
+    private World _world;
 
     #endregion
+
 
     #region MonoBehaviour
     private void Awake()
     {
         _playerInput = GetComponent<PlayerInput>();
         _playerMovement = GetComponent<PlayerMovement>();
+        _world = FindObjectOfType<World>();
     }
 
     private void Start()
@@ -46,7 +49,17 @@ public class Player : MonoBehaviour
 
     private void HandleAttack()
     {
+        Ray attackRay = new Ray(_camera.position, _camera.forward);
+        RaycastHit hit;
+        if (Physics.Raycast(attackRay, out hit, _attackRange, _groundMask))
+        {
+            ModifyTerrain(hit);
+        }
+    }
 
+    private void ModifyTerrain(RaycastHit hit)
+    {
+        _world.SetBlock(hit, BlockType.Air);
     }
 
     #endregion

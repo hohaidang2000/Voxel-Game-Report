@@ -13,6 +13,7 @@ public class PlayerInput : MonoBehaviour
     public Vector2 MouseLook { get; private set; }
 
     public event Action OnAttack;
+    
 
     private PlayerControls _controls;
     private InputAction _move;
@@ -24,8 +25,7 @@ public class PlayerInput : MonoBehaviour
 
         GetJumpInput();
         GetSprintInput();
-        GetMouseClick();
-
+        //GetAttackInput();
 
     }
 
@@ -33,6 +33,7 @@ public class PlayerInput : MonoBehaviour
     {
         _move = _controls.Player.Move;
         _look = _controls.Player.Look;
+        _controls.Player.Attack.performed += HandleAttack;
         _controls.Player.Enable();
     }
 
@@ -70,9 +71,10 @@ public class PlayerInput : MonoBehaviour
     {
         MouseLook = _look.ReadValue<Vector2>();
     }
-    private void GetMouseClick()
+
+    private void HandleAttack(InputAction.CallbackContext context)
     {
-        _controls.Player.Attack.performed += ctx => OnAttack?.Invoke();      
+        OnAttack?.Invoke();
     }
 
 }
