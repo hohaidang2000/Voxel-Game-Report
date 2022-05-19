@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="GameManager">
+    <Position X="9.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAIBAAACABAAAJBCAAAQA=</HashCode>
+      <FileName>Assets\Player\Scripts\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player">
+    <Position X="7.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAACAgAAAAAIAAABAAAAAAAAAAAAAAACASAEA=</HashCode>
+      <FileName>Assets\Player\Scripts\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerCamera">
+    <Position X="7.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AISAAAAAACAAAAAAAAAACAAAAAAAAACAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Player\Scripts\PlayerCamera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerInput">
+    <Position X="9.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAACAAAAAACCAAggIABAAAAAAAAAJABgAAAAAGEI=</HashCode>
+      <FileName>Assets\Player\Scripts\PlayerInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerMovement">
+    <Position X="5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAoAIAAAAIAABAAAAAAAAQAAEAAQAGEACAEA=</HashCode>
+      <FileName>Assets\Player\Scripts\PlayerMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockLayerHandler">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAABAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\World\_Scripts\BlockLayers\BlockLayerHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirLayerHandler">
+    <Position X="5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\World\_Scripts\BlockLayers\AirLayerHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StoneLayerHandler">
+    <Position X="7.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAACAAAAAAAAAABAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\World\_Scripts\BlockLayers\StoneLayerHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SurfaceLayerHandler">
+    <Position X="9.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\World\_Scripts\BlockLayers\SurfaceLayerHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UndergroundLayerHandler">
+    <Position X="11.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Assets\World\_Scripts\BlockLayers\UndergroundLayerHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaterLayerHandler">
+    <Position X="14" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\World\_Scripts\BlockLayers\WaterLayerHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TreeLayerHandler">
+    <Position X="16.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\World\_Scripts\Trees\TreeLayerHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataPorocessing">
+    <Position X="14" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAQAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\World\_Scripts\Trees\DataPorocessing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TreeData">
+    <Position X="16.25" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\World\_Scripts\Trees\TreeData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TreeGenerator">
+    <Position X="14" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAABAAAEAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\World\_Scripts\Trees\TreeGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BiomeCenterFinder">
+    <Position X="5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\World\_Scripts\BiomeCenterFinder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BiomeGenerator">
+    <Position X="7.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAEQAIAECAAgAAAAAAAAAAABQBAAAA=</HashCode>
+      <FileName>Assets\World\_Scripts\BiomeGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockDataManager">
+    <Position X="5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQACCAAAAAAAAAAAAAAAAAAAEAAAAAAAAEA=</HashCode>
+      <FileName>Assets\World\_Scripts\BlockDataManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockDataSO">
+    <Position X="7.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\World\_Scripts\BlockDataSO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextureData">
+    <Position X="5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAICAAAACAAAAAAAAAAAAAgABAAA=</HashCode>
+      <FileName>Assets\World\_Scripts\BlockDataSO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockHelper">
+    <Position X="14" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAIAAAAAAAAAAAAAAEQEAAAAAAAACAAAA=</HashCode>
+      <FileName>Assets\World\_Scripts\BlockHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chunk">
+    <Position X="14" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ggBIAAAAAAAAAAAAAAAAgAAAABAAAAgCCAAAAEAAAEQ=</HashCode>
+      <FileName>Assets\World\_Scripts\Chunk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChunkData">
+    <Position X="16.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAEAgAAAAAAAAAAAAAAAAAAAAEAEAQBAA=</HashCode>
+      <FileName>Assets\World\_Scripts\ChunkData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChunkRenderer">
+    <Position X="16.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEEBAAAAEAAAAAAAAAAAAAAAAABAAAAABAABAgEAEA=</HashCode>
+      <FileName>Assets\World\_Scripts\ChunkRenderer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DirectionExtensions">
+    <Position X="16.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\World\_Scripts\DirectionExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DomainWarping">
+    <Position X="5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAARgQAABAAAAAAA=</HashCode>
+      <FileName>Assets\World\_Scripts\DomainWarping.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeshData">
+    <Position X="14" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAQAgAAAQCGAAAAAAAABAAgA=</HashCode>
+      <FileName>Assets\World\_Scripts\MeshData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NoiseSettings">
+    <Position X="9.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgCAAAACAAAAAAAAAAEAAABAAAAQQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\World\_Scripts\NoiseSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyNoise">
+    <Position X="11.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABEAAAgAAAAAAAAAAgAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\World\_Scripts\MyNoise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerrainGenerator">
+    <Position X="16.25" Y="5.75" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="TerrainGenerator.BiomeSelectionHelper" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\World\_Scripts\TerrainGenerator.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gUAkAIAEAEAAAAAGAAAAIAEAAAAAIAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Assets\World\_Scripts\TerrainGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BiomeGeneratorSelection">
+    <Position X="5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\World\_Scripts\TerrainGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="World">
+    <Position X="11.75" Y="5.75" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="World.WorldGenerationData" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\World\_Scripts\World.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQAAoAAAAEAAsAgEAAAACEAAAAAQAAAIAIQDRkBlAEA=</HashCode>
+      <FileName>Assets\World\_Scripts\World.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldDataHelper">
+    <Position X="11.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAQQAAAQAAAgAAAIAAAAhAEAAAAACAAAAAEAAAIA=</HashCode>
+      <FileName>Assets\World\_Scripts\WorldDataHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldRenderer">
+    <Position X="14" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAQAAAAAAAAAAAAAEAAAAAAABAAAABAAAA=</HashCode>
+      <FileName>Assets\World\_Scripts\WorldRenderer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="BiomeData">
+    <Position X="11.75" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAIAAAQAAAAAAAA=</HashCode>
+      <FileName>Assets\World\_Scripts\TerrainGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WorldData">
+    <Position X="9.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAgAAAAAAAAAAAAAAAAAACAAgAAAAAA=</HashCode>
+      <FileName>Assets\World\_Scripts\World.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="BlockType">
+    <Position X="7.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAEAAAAAEAAAABQAAAAgAIAAgAAAAEAAAAAAAAgQ=</HashCode>
+      <FileName>Assets\World\_Scripts\BlockType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Direction">
+    <Position X="9.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACgAAAAAAAAAAAAAAIAAAAAIAAAgAAgAA=</HashCode>
+      <FileName>Assets\World\_Scripts\Direction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

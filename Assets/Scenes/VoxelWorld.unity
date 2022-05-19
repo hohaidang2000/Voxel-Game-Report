@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 60251132}
   - component: {fileID: 60251131}
   m_Layer: 0
-  m_Name: Wold
+  m_Name: World
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -155,7 +155,7 @@ MonoBehaviour:
   mapSizeInChunks: 10
   chunkSize: 16
   chunkHeight: 100
-  chunkDrawingRange: 5
+  chunkDrawingRange: 8
   chunkPrefab: {fileID: 4443192061081385954, guid: 1c00b035e263f934a9711fcf71e3336a, type: 3}
   worldRenderer: {fileID: 1220637118}
   terrainGenerator: {fileID: 1985401114}
@@ -1014,9 +1014,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1003268699}
-        m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
-        m_MethodName: set_interactable
+      - m_Target: {fileID: 1003268697}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1024,7 +1024,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1003268700
 MonoBehaviour:
